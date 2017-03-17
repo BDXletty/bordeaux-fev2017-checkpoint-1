@@ -27,18 +27,19 @@
 ==================================================
 \************************************************/
 
-
 /************************************************\
 ==================================================
 3. Citation
 ==================================================
 \************************************************/
+
+
 .kaamelott-underline {
   border-bottom: solid 5px #a57824;
 }
 
 .kaamelott-banner.jumbotron {
-  background-image: url('/img/kaamelott-banner.jpg');
+  background-image: url('../img/kaamelott-banner.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,3 +111,12 @@ blockquote {
 4. Footer
 ==================================================
 \************************************************/
+.pied {
+  margin-top : 10px;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+}
+.pied ul li {
+list-style-type: none;  
+}
